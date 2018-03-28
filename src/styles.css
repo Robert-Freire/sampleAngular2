@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+input {
+    height: 35px;
+    width: 95%;
+    border: 1px solid lightblue;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

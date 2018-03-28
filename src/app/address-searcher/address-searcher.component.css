@@ -1,0 +1,23 @@
+hr {
+    margin-top: 10%;
+    width: 96%;
+    margin-bottom: 5%;
+    border: 1px solid lightblue;
+}
+
+#error {
+    height: 35px;
+    width: 95%;
+    border: 1px solid lightblue;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

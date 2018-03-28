@@ -1,0 +1,9 @@
+<div>
+    <hr>
+    <input [(ngModel)]="search" placeholder="Address" (keyup)="searchAddress(search)">
+    <div id="error" *ngIf="isError">{{error}}</div>
+    <span *ngIf="!isError">
+      <input [(ngModel)]="address.latitude" placeholder="Latitude" disabled>
+      <input [(ngModel)]="address.longitude" placeholder="Logitude" disabled>
+    </span>
+</div>
